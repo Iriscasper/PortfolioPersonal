@@ -6,7 +6,7 @@ const certificadosData = [
 ]
 
 const Certificados = () => (
-  <Card id="certificados" title="Certificados" variant="borderless" style={{ width: "50vw", marginTop: "1em" }}>
+  <Card id="certificados" title="Certificados" variant="borderless" style={{ marginTop: "1em" }}>
     {certificadosData.map((certificados, index) =>  (
         <Card type="inner" key={index} title={certificados.nombre} style={{ marginBottom: "1em" }}>
           {certificados.obtencion} - <a href={certificados.web} target='_blank'>{certificados.entidad}</a><br/>

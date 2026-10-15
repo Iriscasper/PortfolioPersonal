@@ -1,5 +1,6 @@
 import React from "react"
 import { Card, Col, Row } from "antd"
+import Github from '../assets/github.svg'
 
 const proyectosData = [
   {
@@ -31,18 +32,19 @@ const Proyectos = () => (
   <div id="proyectos">
     <Row gutter={16}>
       {proyectosData.map((proyecto, index) => (
-        <Col span={6} key={index}>
+        <Col xl={12} xs={24} key={index} id="proyectosColumn">
           <Card
             className="proyectos"
             title={proyecto.nombre}
             variant="borderless"
-            style={{ width: "12vw", marginTop: "1em" }}
+            style={{ marginTop: "1em" }}
           >
             {proyecto.descripcion}
             <div style={{ textAlign: "center", marginTop: "1em" }}>
               <a href={proyecto.url} target="_blank">
                 GitHub
               </a>
+              <img src={Github} width={16} />
             </div>
           </Card>
         </Col>

@@ -12,8 +12,14 @@ body {
 }
 
 #root {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+  #root {
+    width: 90%;
+  }
 }
 
 nav {
@@ -28,6 +34,11 @@ nav a{
   color:white;
   text-decoration: none;
   font-size: 1em;
+}
+
+nav li>a:hover {
+  text-shadow: 2px 4px 5px black;
+  font-weight: bold;
 }
 
 ul {

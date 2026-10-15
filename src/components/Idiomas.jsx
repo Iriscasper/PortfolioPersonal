@@ -2,7 +2,7 @@ import React from 'react'
 import { Card } from 'antd'
 
 const Idiomas = () => (
-    <Card id="idiomas" title="Idiomas" variant="borderless" style={{ width: "50vw", marginTop: "1em" }}>
+    <Card id="idiomas" title="Idiomas" variant="borderless" style={{marginTop: "1em" }}>
       <b>Lengua materna:</b> Español <br/>
       <b>Otros idiomas:</b> Inglés
     </Card>

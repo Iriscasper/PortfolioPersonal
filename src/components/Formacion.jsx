@@ -9,7 +9,7 @@ const formacionData = [
 ]
 
 const Formacion = () => (
-  <Card id="formacion" title="Formación" variant="borderless" style={{ width: "50vw", marginTop: "1em" }}>
+  <Card id="formacion" title="Formación" variant="borderless" style={{marginTop: "1em" }}>
     {formacionData.map((formacion, index) =>  (
         <Card type="inner" key={index} title={formacion.nombre} style={{ marginBottom: "1em" }}>
           {formacion.duracion} - <a href={formacion.web} target='_blank'>{formacion.entidad}</a>
