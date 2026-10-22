@@ -3,6 +3,7 @@ import React from "react"
 import Github from '../assets/github.svg'
 import Linkedin from '../assets/linkedin.svg'
 import Pdf from '../assets/pdf.svg'
+import cvPdf from '../resources/cv-iris-16-10-26.pdf'
 
 const Contacto = () => {
   return (
@@ -20,7 +21,7 @@ const Contacto = () => {
             <img src={Github} width={16} />
           </li>
           <li>
-           <a href='./resources/cv-iris-16-10-26.pdf' target='_blank'>Descargar mi CV</a>
+           <a href={cvPdf} target='_blank'>Descarga mi CV</a>
            <img src={Pdf} width={18} />
           </li>
         </ul>
