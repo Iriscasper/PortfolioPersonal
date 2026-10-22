@@ -20,7 +20,7 @@ const Contacto = () => {
             <img src={Github} width={16} />
           </li>
           <li>
-           <a href='../resources/cv-iris-16-10-26.pdf' target='_blank'>Descargar mi CV</a>
+           <a href='./resources/cv-iris-16-10-26.pdf' target='_blank'>Descargar mi CV</a>
            <img src={Pdf} width={18} />
           </li>
         </ul>
